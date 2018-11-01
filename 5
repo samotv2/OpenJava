@@ -1,0 +1,31 @@
+
+package homework1_5;
+
+import java.util.Scanner;
+
+
+public class Homework1_5 {
+
+    
+    public static void main(String[] args) {
+       System.out.println ("Введите первую цифру шестизначного числа N");
+Scanner in = new Scanner(System.in);
+int a1= in.nextInt();
+  System.out.println ("Введите вторую цифру шестизначного числа N");
+int a2= in.nextInt();
+  System.out.println ("Введите третью цифру шестизначного числа N");
+int a3= in.nextInt();
+  System.out.println ("Введите четверую цифру шестизначного числа N");
+int a4= in.nextInt();
+System.out.println ("Введите пятую цифру шестизначного числа N");
+int a5= in.nextInt();
+System.out.println ("Введите шестую цифру шестизначного числа N");
+int a6= in.nextInt();
+double sr =(a1+a2+a3+a4+a5+a6)/6.0;
+System.out.println ("Среднее арифметическое цифр шестизначного числа N равно " + sr);
+double n = a1*a2*a3*a4*a5*a6;
+double res = Math.pow(n, 1. / 6.);
+System.out.println ("геометрическое среднее цифр шестизначного числа N равно " + res);
+    }
+    
+}
