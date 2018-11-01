@@ -1,0 +1,28 @@
+
+package homework1_1;
+
+import java.util.Scanner;
+
+
+public class HomeWork1_1 {
+     
+    public static void main(String[] args)
+    {
+        System.out.println ("Введите первое число");
+Scanner in = new Scanner(System.in);
+int a= in.nextInt();
+System.out.println ("Введите второе число");
+int b= in.nextInt();
+System.out.println ("Введите третье число");
+int c= in.nextInt();
+    {
+       if (a == b && b == c){
+            System.out.println("введенные числа одинаковые");
+        }
+        else{
+            System.out.println("введенные числа различны");
+        }
+    } 
+    }
+    
+}
