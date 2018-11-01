@@ -1,0 +1,20 @@
+package homework1_3;
+
+import java.util.Scanner;
+
+public class HomeWork1_3 {
+
+ 
+    public static void main(String[] args) {
+        System.out.println ("Введите больший радиус");
+Scanner in = new Scanner(System.in);
+double R1= in.nextDouble();
+System.out.println ("Введите меньший радиус");
+double R2= in.nextDouble();
+Double S1, S2;
+S1= 3.14*R1*R1;
+S2=3.14*R2*R2;
+System.out.println ("Площадь кольца составит " + (S1-S2));
+    }
+    
+}
